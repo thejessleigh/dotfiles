@@ -2,7 +2,6 @@
     ui = "auto"
 [color "diff"]
     meta = cyan bold
-    frag = magendta bold
 [color "status"]
     untracked = cyan
 [color "branch"]
