@@ -1,0 +1,5 @@
+.env_secret
+.zsh_history
+.zsh_sessions
+.zcompdump*
+
