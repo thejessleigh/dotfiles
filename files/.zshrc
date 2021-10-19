@@ -1,9 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# where to find dotfiles
-export DOTFILES_PATH=~/projects/dotfiles/
-
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/jess/.oh-my-zsh"
@@ -104,13 +101,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh
 
-. $DOTFILES_PATH.zsh_aliases
+. ~/.zsh_aliases
 
 # Python Configuration
 export PATH="$(pyenv root)/shims:/usr/local/opt/python/libexec/bin:$PATH"
 
 eval "$(pyenv init -)"
 
-# Load env vars
 
-. $DOTFILES_PATH.env
+# Load environment variables
+. ~/.env
